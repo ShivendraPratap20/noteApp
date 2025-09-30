@@ -19,5 +19,4 @@ const sendOTP = async ({ email, otp }) => {
     return { status: "FAILED", message: "Server error" };
   }
 };
-
 module.exports = sendOTP;
